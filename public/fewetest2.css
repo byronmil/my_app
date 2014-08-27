@@ -491,10 +491,10 @@ div.interior-right {
 	  	cursor: pointer;
 		display: inline;
 		float: right;
-		font-size: 1.25em;
+		font-size: 1.1em;
 		background-color: #222;
-		margin: .75em 0 0;
-		padding: .5em .25em;
+		margin: .75em .5em 0 0;
+		padding: .25em .25em;
 		color: #fff;
 		border: 2px solid #000;
 	}
@@ -595,7 +595,7 @@ div.interior-right {
 		text-align: center;
 	}
 	p.header-ph {
- 		font-size: 1.5em;
+ 		font-size: 1.25em;
  		float: none;
  		padding: 0;
  		text-align:center;
@@ -623,6 +623,7 @@ div.interior-right {
 		float: none;
 		padding: 1em 0 0 0;
 		margin: 0;
+		width: 45%;
 	}
 	div.fadein {
 		display: none;
