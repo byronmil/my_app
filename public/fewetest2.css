@@ -528,6 +528,7 @@ div.interior-right {
 	}
 	div.main {
 		width: 100%;
+		padding: 0 1em 1em 1em;
 		min-height: 1px;
 		float: right;
 	}
