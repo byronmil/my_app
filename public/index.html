@@ -23,6 +23,12 @@
 	    <link rel="shortcut icon" href="assets/ico/favicon.png">
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,500,400,300' rel='stylesheet' type='text/css'>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+		});
+		</script>
 	</head>
 
 <body>
@@ -104,10 +110,4 @@
 	<br/>
 
 </body>
-	<script>
-	$(function(){
-		$('.fadein img:gt(0)').hide();
-		setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-	});
-	</script>
 </html>
