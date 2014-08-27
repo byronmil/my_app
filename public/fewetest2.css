@@ -516,12 +516,12 @@ div.interior-right {
 		box-sizing: border-box;
 		float: right;
 	}
-	span.aside1 {
+	div.aside1 {
 		float: left;
 		width:50%;
 		margin-bottom: 1em;
 	}
-	span.aside2 {
+	div.aside2 {
 		float: left;
 		width:50%;
 		margin-bottom: 1em;
