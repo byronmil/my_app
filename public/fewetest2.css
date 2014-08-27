@@ -273,7 +273,6 @@ div.clear {
 div {
 	padding: 0;
 	margin: 0;
-	width: 960px;
 	position: relative;
 }
 div.header {
@@ -296,7 +295,6 @@ div.fac-right {
 	max-width: 730px;
 	padding: 0;
 	float: right;
-	background-image: url('fac-slide-1.jpg');
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -522,7 +520,7 @@ div.interior-right {
 	}
 	div.aside2 {
 		float: left;
-		width:50%;
+		width: 50%;
 		margin-bottom: 1em;
 	}
 	div.main {
